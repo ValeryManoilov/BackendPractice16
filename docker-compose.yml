@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  mathadd:
+    image: mathadd:latest
+    ports:
+      - "8050:8050"
+  mathdiv:
+    image: mathdiv:latest
+    ports:
+      - "8051:8051"
+  mathmul:
+    image: mathmul:latest
+    ports:
+      - "8052:8052"
